@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  padding: 0 10px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #163244;
+}
+
+.container {
+  width: 25%;
+  justify-content: center;
+  background-color: #fbfcfd;
+  border-radius: 7px;
+  padding: 20px 25px;
+}
+
+.container p{
+    text-align: center;
+    font-weight: 300;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+}
+.signup h1{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.signup label{
+    font-size: 17px;
+    font-weight: 300;
+}
+.signup input{
+    padding: 4px 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(162, 162, 162);
+}
+.signup .btns button{
+    display: grid;
+    padding: 7px 20px;
+    width: 120px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #163244;
+    border-radius: 10px;
+    color: #fff;
+    
+    border: 1px solid transparent;
+}
+.signup .btns button:hover{
+    background-color: transparent;
+    border: 1px solid #163244;
+    color: #163244;
+    cursor: pointer;
+}
+.signup .goto{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.signup .goto span{
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login{
+    display: none;
+    flex-direction: column;
+}
+.login h1{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.login label{
+    font-size: 17px;
+    font-weight: 300;
+}
+.login input{
+    padding: 4px 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(162, 162, 162);
+}
+.login .btns button{
+    display: grid;
+    padding: 7px 20px;
+    width: 120px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #163244;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.login .btns button:hover{
+    background-color: transparent;
+    border: 1px solid #163244;
+    color: #163244;
+    cursor: pointer;
+}
+.login .goto{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.login .goto span{
+    font-weight: 600;
+    cursor: pointer;
+}
