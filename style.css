@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  width: 25%;
+  max-width: 100%;
   justify-content: center;
   background-color: #fbfcfd;
   border-radius: 7px;
@@ -50,7 +50,7 @@ body {
 .signup .btns button{
     display: grid;
     padding: 7px 20px;
-    width: 120px;
+    max-width: 120px;
     margin: auto;
     margin-top: 15px;
     background-color: #163244;
@@ -96,7 +96,7 @@ body {
 .login .btns button{
     display: grid;
     padding: 7px 20px;
-    width: 120px;
+    max-width: 120px;
     margin: auto;
     margin-top: 15px;
     background-color: #163244;
@@ -118,4 +118,15 @@ body {
 .login .goto span{
     font-weight: 600;
     cursor: pointer;
+}
+
+.uptxtinp{
+    font-size: 17px;
+    font-weight: 600;
+    margin: 5px 0px;
+}
+.intxtinp{
+    font-size: 17px;
+    font-weight: 600;
+    margin: 5px 0px;
 }
